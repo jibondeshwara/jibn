@@ -1,0 +1,427 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+}
+
+
+/* Header  */
+
+.header {
+    background: #22c3a3;
+    padding: 17px 0;
+}
+
+.header .header-left {
+    float: left;
+    width: 30%;
+}
+
+.header .header-left h4 {
+    color: #f6fdfc;
+    font-size: 21px;
+}
+
+.header-right {
+    float: right;
+    width: 70%;
+}
+
+.header-right ul {}
+
+.header-right ul li {
+    display: inline-block;
+}
+
+.header-right ul li a {
+    padding: 0 20px;
+    text-decoration: navajowhite;
+    color: #f4eff0;
+    line-height: 18px;
+    font-size: 16px;
+}
+
+
+/* Bnner */
+
+.banner-section {
+    background-image: url(..//image/header-bg01.jpg);
+    padding: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .banner-section .banner-caption {
+    background-image: url(..//image/header-bg01.jpg);
+    padding: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.banner-section .banner-caption h1 {
+    color: white;
+    font-size: 39px;
+    margin: 19px 0;
+}
+
+.banner-section .banner-caption p {
+    color: white;
+    font-size: 16px;
+    margin: 25px 0;
+}
+
+
+.learn-div {
+    border: 2px solid #d6f4ee;
+    display: inline-block;
+    padding: 15px 25px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: navajowhite;
+    color: #d6f4ee;
+    font-size: 17px;
+}
+
+/* Service */
+
+
+.service-section {}
+
+.service-section .letter-caption {}
+
+.service-section .letter-caption h3 {
+    font-size: 31px;
+    margin: 25px 0;
+    margin-top: 84px;
+}
+
+.service-section .letter-caption p {
+    font-size: 18px;
+    color: #777777;
+
+}
+
+
+/* div  */
+
+.service-section .service-cpaction {
+
+    width: 22%;
+    float: left;
+    margin-top: 89px;
+}
+
+.div-1 {
+
+    width: 94%;
+    float: left;
+    height: 152px;
+}
+
+.icon-1 {
+    text-align: center;
+    margin-top: 5px;
+    color: #0dbf9b;
+    font-size: 34px;
+}
+
+h5 {
+    text-align: center;
+    font-size: 20px;
+    margin: 16px 0;
+    color: #656565;
+}
+
+p {
+    text-align: center;
+    font-size: 14px;
+    color: #bebebe;
+    margin: 15px;
+}
+
+.div-2 {
+
+    width: 94%;
+    float: left;
+    display: block;
+    margin-left: 219px;
+    margin-top: -154px;
+    height: 152px;
+}
+
+.div-3 {
+
+    width: 94%;
+    float: left;
+    margin-left: 441px;
+    margin-top: -155px;
+    height: 152px;
+}
+
+.div-4 {
+
+    width: 117%;
+    float: left;
+    margin-left: 325%;
+    margin-top: -78%;
+    height: 151px;
+}
+
+
+/* .div-2 {
+    
+    width: 97%;
+    float: left;
+    height: 151px;
+} */
+
+/* .div-3 {
+    
+    width: 97%;
+    float: left;
+    height: 152px;
+} */
+
+/* .div-4 {
+    
+    width: 97%;
+    float: left;
+    margin-top: -156px;
+} */
+
+
+hr {
+    margin-top: 80px;
+    color: #0dbf9b;
+}
+
+
+/* About us */
+
+.About-section {}
+
+.About-section .About-caption {}
+
+.About-section .About-caption .letter-div-2 {
+    margin-top: 45px;
+}
+
+.About-section .About-caption .letter-div-2 h3 {
+    font-size: 40px;
+}
+
+.About-section .About-caption .letter-div-2 .lekha {
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+
+/* ...... */
+
+/* About-left */
+
+.About-section .About-caption .About-left {
+    width: 42%;
+    margin-top: 35px;
+    display: inline-block;
+}
+
+.About-section .About-caption .About-left img {
+    float: left;
+    margin-left: 122px;
+    width: 87%;
+}
+
+/* About-Right  */
+
+.About-section .About-caption .About-right {
+    float: right;
+    width: 53%;
+    margin-top: 35px;
+}
+
+.About-section .About-caption .About-right .lekha-1 {}
+
+.About-section .About-caption .About-right .lekha-1 span {
+
+    font-size: 23px;
+}
+
+.About-section .About-caption .About-right .lekha-1 .wright-1 {
+
+    font-size: 21px;
+    margin-left: 1px;
+    display: inline-block;
+    text-align: match-parent;
+}
+
+.About-section .About-caption .About-right .lekha-2 {}
+
+.About-section .About-caption .About-right .lekha-2 span {
+
+    font-size: 21px;
+}
+
+.About-section .About-caption .About-right .lekha-2 .Wright-2 {
+    font-size: 20px;
+    margin-left: -2px;
+    text-align: inherit;
+}
+
+.About-section .About-caption .About-right .lekha-3 {}
+
+.About-section .About-caption .About-right .lekha-3 span {
+    font-size: 21px;
+}
+
+.About-section .About-caption .About-right .lekha-3 .wright-3 {
+    font-size: 21px;
+    margin-left: 1px;
+    text-align: inherit;
+}
+
+
+/* Contact-section */
+
+.contact-section {
+    background: #f6f6f6;
+    padding: 220px 0;
+    margin-top: 34px;
+}
+
+.contact-section .contact-caption {}
+
+.contact-section .contact-caption .div-right {}
+
+.contact-section .contact-caption .div-right h5 {
+    font-size: 34px;
+}
+
+.contact-section .contact-caption .div-right p {
+    font-size: 16px;
+    margin-top: 26px;
+}
+
+
+/* div  */
+.contact-section .contact-caption .div-part-1 {
+    float: left;
+    width: 33%;
+    text-align: center;
+    color: #909090;
+}
+
+.contact-section .contact-caption .div-part-1 .Span-1 {
+    color: #909090;
+    margin: 8px 0;
+    display: inline-block;
+}
+
+.contact-section .contact-caption .div-part-1 .Span-1 .Span-2 {}
+
+.span-3 {
+    color: #909090;
+    margin: 5px 0;
+    display: inline-block;
+}
+
+
+.contact-section .contact-caption .div-part-4 .Span-4 {}
+
+.contact-section .contact-caption .div-part-5 .Span-5 {}
+
+.icon-div-1 {
+    font-size: 25px;
+    margin: 10px 0;
+    color: #0dbf9b;
+}
+
+
+.contact-section .contact-caption .div-part-1 .icon-div-1 {
+    font-size: 25px;
+    margin: 10px 0;
+    color: #0dbf9b;
+}
+
+.span-4 {
+    color: #909090;
+    margin: 8px 0;
+    display: inline-block;
+}
+
+.span-5 {
+    color: #909090;
+}
+
+.contact-section .contact-caption .div-part-1 .icon-div-1 i {}
+
+.contact-section .contact-caption .div-part-2 {
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+.contact-section .contact-caption .div-part-3 {
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+
+/* footer  */
+
+.footer {
+    background-color: #0dbf9b;
+    text-align: center;
+}
+
+.footer .social-icoon {
+    display: inline-block;
+    text-align: center;
+}
+
+.footer .social-icoon li {
+    float: left;
+    display: inline-block;
+    padding: 8px 14px;
+    font-size: 26px;
+    color: white;
+}
+
+.footer .social-icoon li i {
+    text-align: center;
+    display: inline-block;
+}
+
+
+.black-color{
+    background-color: black;
+    width: auto;
+    height: 40px;
+}
